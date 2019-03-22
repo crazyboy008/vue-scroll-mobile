@@ -32,6 +32,7 @@ npm run serve
     </scroll>
   </div>
 </template>
+```
 
 ## 配置说明
 | 参数     | 类型     | 描述 | 必需 | 默认值 |

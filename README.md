@@ -17,8 +17,11 @@ npm install vue-scroll-m -S
 
 ## 示例
 
-<img src="http://img2.jpjie.com/h5/ifbueh1553572800311.gif"/>
-<img src="http://img2.jpjie.com/h5/1fq66vw1k2wj20p00goq7n.gif"/>
+<img src="http://img2.jpjie.com/h5/vue-scroll-m/ifbueh1553572800311.gif"/>
+<img src="http://img2.jpjie.com/h5/vue-scroll-m/qrcode-1553587990.png"/>
+* 手机打开微信或QQ二维码扫码查看示例
+
+* [打开链接demo](http://img2.jpjie.com/h5/vue-scroll-m/demo-1553586956280.html)
 
 ## 使用方法
 

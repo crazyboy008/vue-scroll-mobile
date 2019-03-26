@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
-/dist
+.gitignore
+.npmignore
+webpack.config.js
 
 # local env files
 .env.local

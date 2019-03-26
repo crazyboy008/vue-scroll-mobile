@@ -1,7 +1,10 @@
 <template>
   <div id="app">
+    <div class="div" @click="goTop">header</div>
     <scroll ref="scroll"
             :data="listData"
+            :top="40"
+            :bottom="40"
             @onScroll="onScroll"
             @pullingUp="onScrollBottom"
             @pullingDown="onPullingDown">
@@ -15,6 +18,7 @@
         </div>
       </div>
     </scroll>
+    <div class="div footer">footer</div>
   </div>
 </template>
 
@@ -52,7 +56,7 @@ export default {
   },
   methods: {
     onScroll(e) {
-      console.log(e.target.scrollTop)
+//      console.log(e.target.scrollTop)
     },
     onPullingDown() {
       setTimeout(() => {
@@ -69,11 +73,14 @@ export default {
         this.listData = this.listData.concat(json)
       }, 200)
     },
+    goTop() {
+      this.$refs.scroll.scrollTo(0, 0)
+    }
   }
 }
 </script>
 
-<style>
+<style lang="less">
   body {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -87,6 +94,19 @@ export default {
     margin: 0;
     padding-top: 10px;
     background: #fff;
+  }
+  .div {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    background: blue;
+    z-index: 100;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
   }
 
 </style>

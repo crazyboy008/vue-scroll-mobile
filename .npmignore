@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log
+.idea/
+webpack.config.js
+.gitignore
+.npmignore
+src/
+public/

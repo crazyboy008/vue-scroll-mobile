@@ -24,6 +24,7 @@
 
 <script>
 import Scroll from './components/scroll/Scroll.vue'
+//import Scroll from 'vue-scroll-m'
 
 let json = [{
   title: '我是title1',
@@ -53,6 +54,9 @@ export default {
       listData: json,
       num: 1
     }
+  },
+  mounted() {
+    console.log(Scroll);
   },
   methods: {
     onScroll(e) {

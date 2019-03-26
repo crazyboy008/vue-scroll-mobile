@@ -1,14 +1,14 @@
 {
   "name": "vue-scroll",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "cross-env NODE_ENV=production webpack",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.6.6"
+    "vue": "^2.6.6",
+    "vue-scroll-m": "^0.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
@@ -47,5 +47,22 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "author": "xzp <347096637@qq.com>",
+  "description": "A mobile scroll plugin for vue, support for pull-up load and pull-down refresh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazyboy008/vue-scroll-mobile.git"
+  },
+  "homepage": "https://github.com/crazyboy008",
+  "bugs": {
+    "url": "https://github.com/crazyboy008/vue-scroll-mobile/issues"
+  },
+  "main": "dist/vue-scroll-m.js",
+  "keywords": [
+    "vue",
+    "vue-scroll",
+    "vue-scroll-mobile"
+  ],
+  "license": "ISC"
 }

@@ -1,3 +1,4 @@
+
 # vue-scroll H5 滚动组件支持下拉刷新和上拉加载更多
 
 ## Project setup
@@ -8,6 +9,10 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run dev
+```
+### npm download
+```
+npm install vue-scroll -S
 ```
 
 ## 示例

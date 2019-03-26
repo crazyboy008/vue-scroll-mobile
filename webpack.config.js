@@ -17,7 +17,7 @@ if (!isProduction) [
 ]
 
 module.exports = {
-    entry: isProduction ? './src/index.js' : './src/main.js',
+    entry: isProduction ? '/src/index.js' : './src/main.js',
     output:{
         path: isProduction ? path.join(__dirname,'./dist') : path.join(__dirname,'./demo'),
         publicPath:'',

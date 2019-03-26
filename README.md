@@ -12,7 +12,7 @@ npm run dev
 ```
 ### npm download
 ```
-npm install vue-scroll -S
+npm install vue-scroll-m -S
 ```
 
 ## 示例
@@ -40,6 +40,15 @@ npm install vue-scroll -S
     </scroll>
   </div>
 </template>
+
+import Scroll from 'vue-scroll-m'
+
+export default {
+  components: {
+    Scroll
+  },
+}
+
 ```
 
 ## 配置说明

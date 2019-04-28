@@ -1,6 +1,6 @@
 {
   "name": "vue-scroll-m",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "cross-env NODE_ENV=production webpack",
@@ -48,7 +48,7 @@
     "not ie <= 8"
   ],
   "author": "xzp <347096637@qq.com>",
-  "description": "A mobile scroll component for vue, support for pull-up load and pull-down refresh",
+  "description": "A mobile scroll component for vue, 移动端H5 vue滚动组件支持下拉刷新和上拉加载更多",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/crazyboy008/vue-scroll-mobile.git"
@@ -61,6 +61,8 @@
   "keywords": [
     "vue",
     "vue-scroll",
+    "vue-scroll-m",
+    "vue-scroll-h5",
     "vue-scroll-mobile"
   ],
   "license": "ISC"
